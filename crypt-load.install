@@ -1,0 +1,14 @@
+# /etc/initcpio/install/crypt_load
+#!/bin/bash
+
+build(){
+	add_binary 'partprobe'
+	add_runscript
+}
+
+help(){
+	cat <<HELPEOF
+Probes mapped LUKS container for partitions.
+HELPEOF
+}
+
