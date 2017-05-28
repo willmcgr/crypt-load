@@ -1,7 +1,7 @@
 
 
 pkgname=crypto-load
-pkgver=1.e87ebba
+pkgver=2.e454a31
 pkgrel=1
 pkgdesc='Simple initcpio hook, probes cryptroot for sub-partitions.'
 arch=('any')

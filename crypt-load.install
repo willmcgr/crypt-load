@@ -1,7 +1,8 @@
-# /etc/initcpio/install/crypt_load
+# /etc/initcpio/install/crypt-load
 #!/bin/bash
 
 build(){
+  SCRIPT="crypt-load"
 	add_binary 'partprobe'
 	add_runscript
 }

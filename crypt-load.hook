@@ -1,6 +1,7 @@
-# /etc/initcpio/hook/crypt_load
+# /etc/initcpio/hook/crypt-load
 
 run_hook(){
+	hook_name="crypt-load"
 	partprobe /dev/mapper/cryptroot
 }
 
